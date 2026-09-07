@@ -1,0 +1,31 @@
+<svg width="94" height="90" viewBox="0 0 94 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-13" y="-13" width="120" height="116"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(6.5px);clip-path:url(#bgblur_0_31_745_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_ii_31_745)" data-figma-bg-blur-radius="13">
+<rect width="94" height="90" rx="20" fill="#00A5BB" fill-opacity="0.1"/>
+<rect x="0.5" y="0.5" width="93" height="89" rx="19.5" stroke="url(#paint0_linear_31_745)"/>
+<path d="M27.9367 43.9287C29.1857 42.6641 31.2106 42.6641 32.4595 43.9287L39.9406 51.5037C40.3108 51.8785 40.9109 51.8785 41.281 51.5037L61.6063 30.9207C62.8186 29.6932 64.784 29.693 65.9963 30.9206L66.0532 30.9781C67.3138 32.2545 67.3138 34.3056 66.0641 35.5707C60.8573 40.8413 48.0771 53.7815 42.872 59.0517C41.6231 60.3162 39.5984 60.3161 38.3494 59.0515L27.9367 48.5082C26.6878 47.2436 26.6878 45.1933 27.9367 43.9287Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_ii_31_745" x="-13" y="-13" width="120" height="116" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.647059 0 0 0 0 0.733333 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_31_745"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.647059 0 0 0 0 0.733333 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_31_745" result="effect2_innerShadow_31_745"/>
+</filter>
+<clipPath id="bgblur_0_31_745_clip_path" transform="translate(13 13)"><rect width="94" height="90" rx="20"/>
+</clipPath><linearGradient id="paint0_linear_31_745" x1="0" y1="90" x2="100.538" y2="81.9828" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00A5BB" stop-opacity="0.05"/>
+<stop offset="0.5" stop-color="#00A5BB"/>
+<stop offset="1" stop-color="#00A5BB" stop-opacity="0.05"/>
+</linearGradient>
+</defs>
+</svg>

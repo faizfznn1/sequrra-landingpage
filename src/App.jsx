@@ -10,6 +10,7 @@ import MaintenancePage from "./components/MaintenancePage";
 import Reveal from "./components/Reveal";
 import AdvantagesSection from "./components/AdvantagesSection";
 import "./App.css";
+import AboutSection from "./components/AboutSection";
 
 const isMaintenanceMode = import.meta.env.VITE_MAINTENANCE_MODE === "true";
 
@@ -38,6 +39,9 @@ function LandingPage() {
       <main>
         <Reveal>
           <HeroSection />
+        </Reveal>
+        <Reveal>
+          <AboutSection />
         </Reveal>
         <Reveal>
           <FeatureCards />
