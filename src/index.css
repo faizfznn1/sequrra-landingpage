@@ -2,6 +2,11 @@
 
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
 @theme {
   /* ================= Typography ================= */
   --font-inter: "Inter", sans-serif;
@@ -79,7 +84,7 @@
 
 @layer base {
   body {
-    background-color: var(--color-base);
+    background-color: var(--color-neutral-50);
     color: var(--color-neutral-900);
     font-optical-sizing: auto;
   }
