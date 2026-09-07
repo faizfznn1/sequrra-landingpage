@@ -1,8 +1,8 @@
 const buttonVariants = {
   primary:
-    "bg-primary-500 text-neutral-50 hover:bg-primary-600 active:bg-primary-700",
+    "bg-primary-700 text-neutral-50 hover:bg-primary-800 active:bg-primary-900",
   secondary:
-    "border border-primary-500 bg-transparent text-primary-500 hover:bg-primary-50 active:bg-primary-100",
+    "border border-primary-700 bg-transparent text-primary-700 hover:bg-primary-900 hover:text-neutral-50 active:bg-primary-900 active:text-neutral-50",
 };
 
 function Button({
