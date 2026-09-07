@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Gloria+Hallelujah&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* ================= Typography ================= */
+  --font-inter: "Inter", sans-serif;
+  --font-plus-jakarta: "Plus Jakarta Sans", sans-serif;
+
+  /* Menjadikan Inter sebagai font default utama (font-sans) */
+  --font-sans: "Inter", sans-serif;
+
+  /* ================= Typography Scale ================= */
+  --text-display: 4rem;
+  --text-h1: 4rem;
+  --text-h2: 3rem;
+  --text-h3: 2.5rem;
+  --text-h4: 2rem;
+  --text-h5: 1.5rem;
+  --text-h6: 1.25rem;
+  --text-body-lg: 1.25rem;
+  --text-body-md: 1.125rem;
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-tiny: 0.75rem;
+
+  /* ================= Colors ================= */
+  --color-base: #f5f5f5;
+
+  /* Neutral Colors */
+  --color-neutral-50: #fefefe;
+  --color-neutral-100: #f2f2f2;
+  --color-neutral-200: #d7d7d7;
+  --color-neutral-300: #c9c9c9;
+  --color-neutral-400: #bcbcbc;
+  --color-neutral-500: #969696;
+  --color-neutral-600: #717171;
+  --color-neutral-700: #4b4b4b;
+  --color-neutral-800: #262626;
+  --color-neutral-900: #151515;
+
+  /* Primary Colors */
+  --color-primary-50: #e6f3f6;
+  --color-primary-100: #c7e2e8;
+  --color-primary-200: #8ec8d5;
+  --color-primary-300: #5aafc1;
+  --color-primary-400: #3aa0b5;
+  --color-primary-500: #0988a3;
+  --color-primary-600: #087c94;
+  --color-primary-700: #066174;
+  --color-primary-800: #054b5a;
+  --color-primary-900: #043944;
+
+  /* Secondary Colors */
+  --color-secondary-50: #fef4e8;
+  --color-secondary-100: #fddeb9;
+  --color-secondary-200: #fbce97;
+  --color-secondary-300: #fab768;
+  --color-secondary-400: #f9a94a;
+  --color-secondary-500: #f7941d;
+  --color-secondary-600: #e1871a;
+  --color-secondary-700: #af6915;
+  --color-secondary-800: #885110;
+  --color-secondary-900: #683e0c;
+
+  /* Feedback Colors */
+  --color-success-300: #d7ffb8;
+  --color-success-500: #aee286;
+  --color-success-700: #58a700;
+
+  --color-warning-300: #fff8e4;
+  --color-warning-500: #ffd79d;
+  --color-warning-700: #ff9600;
+
+  --color-error-300: #ffdfe0;
+  --color-error-500: #ff9696;
+  --color-error-700: #ff4b4b;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-base);
+    color: var(--color-neutral-900);
+    font-optical-sizing: auto;
+  }
+}
