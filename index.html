@@ -1,13 +1,140 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sequrra-landingpage</title>
+    <title>SEQURRA - Anti Counterfeit Indonesia</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/components.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <header class="site-header" id="beranda">
+      <div class="container nav-wrap">
+        <a href="#beranda" class="brand">SEQURRA</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">☰</button>
+        <nav id="primary-menu" class="site-nav" aria-label="Navigasi utama">
+          <a href="#beranda">Beranda</a>
+          <a href="#tentang">Tentang Kami</a>
+          <a href="#fitur">Fitur</a>
+          <a href="#cara-kerja">Cara Kerja</a>
+          <a href="#kontak">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="tentang">
+        <div class="container hero-grid">
+          <div>
+            <p class="badge">Anti-Counterfeit #1 di Indonesia</p>
+            <h1>Lindungi Brand Anda dari Pemalsuan QR Microtext</h1>
+            <p class="hero-copy">
+              SEQURRA menghadirkan stiker QR terenkripsi dengan microtext dan variable data untuk perlindungan produk yang sulit dipalsukan dan cepat diverifikasi.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#kontak">Hubungi Kami</a>
+              <a class="btn btn-secondary" href="#fitur">Lihat Fitur</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <img src="/images/hero.png" alt="Contoh dashboard SEQURRA" />
+          </div>
+        </div>
+      </section>
+
+      <section class="trusted">
+        <div class="container">
+          <h2>Dipercaya oleh berbagai brand terkemuka</h2>
+          <div class="trusted-list">
+            <span>GoC UB</span>
+            <span>Rafin Rumahan</span>
+            <span>GDC</span>
+            <span>Consulting</span>
+            <span>Brand Lokal</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="fitur">
+        <div class="container">
+          <h2>Fitur Proteksi untuk setiap produk Anda</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Stiker SQR</h3>
+              <p>Banyak varian stiker dengan QR terenkripsi dan microtext untuk autentikasi produk.</p>
+            </article>
+            <article class="feature-card">
+              <h3>SQR App</h3>
+              <p>Aplikasi verifikasi untuk konsumen scan dan konfirmasi keaslian dalam hitungan detik.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Data Dashboard</h3>
+              <p>Dashboard brand owner untuk memantau scan, lokasi, dan data autentikasi secara real-time.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps" id="cara-kerja">
+        <div class="container">
+          <h2>Tiga langkah sederhana untuk perlindungan produk</h2>
+          <div class="step-grid">
+            <article class="step-card">
+              <span class="step-pill">1</span>
+              <h3>Pasang Stiker</h3>
+              <p>Brand owner memasang stiker SQR pada produk di tahap akhir produksi.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-pill">2</span>
+              <h3>Scan QR</h3>
+              <p>Konsumen scan stiker menggunakan aplikasi SEQURRA dari smartphone mereka.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-pill">3</span>
+              <h3>Produk Terverifikasi</h3>
+              <p>Keaslian produk terkonfirmasi langsung dengan jejak data yang tercatat.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="kontak">
+        <div class="container cta-wrap">
+          <div>
+            <h2>Lindungi Produk Anda sekarang</h2>
+            <p>Satu langkah untuk memastikan keaslian produk Anda di seluruh jaringan distribusi.</p>
+          </div>
+          <a class="btn btn-primary" href="https://wa.me/6282130312025" target="_blank" rel="noreferrer">Hubungi via WhatsApp</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="brand">SEQURRA</p>
+          <p>Solusi keamanan produk berbasis encrypted QR dan microtext.</p>
+        </div>
+        <div>
+          <h3>Kontak</h3>
+          <p>RDTX Square Lt. 18, Jakarta Selatan</p>
+          <p>+62 821-3031-2025</p>
+        </div>
+        <div>
+          <h3>Email</h3>
+          <p>hello@sequrra.id</p>
+        </div>
+      </div>
+      <p class="copyright">© 2026 SEQURRA by PT. Rahasia Esa Dunia. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script type="module" src="/js/main.js"></script>
   </body>
 </html>
