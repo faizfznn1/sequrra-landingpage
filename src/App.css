@@ -53,7 +53,7 @@
 
 .navbar__nav a:hover,
 .navbar__nav a:focus-visible {
-  color: var(--color-primary-500);
+  color: var(--color-primary-800);
 }
 
 .navbar__actions {
@@ -236,7 +236,7 @@
   padding: 0 18px;
   border-radius: 8px;
   background: var(--color-neutral-50);
-  color: var(--color-primary-500);
+  color: var(--color-primary-800);
   font-size: var(--text-body);
   font-weight: 600;
   text-decoration: none;
@@ -284,7 +284,7 @@
 .hero-section {
   position: relative;
   overflow: hidden;
-  margin: 8px;
+  margin: 32px;
   padding: 44px 24px 80px;
   border-radius: 14px;
   background: linear-gradient(
@@ -568,7 +568,7 @@
   padding: 5px 9px;
   border-radius: 5px;
   background: var(--color-primary-50);
-  color: var(--color-primary-500);
+  color: var(--color-primary-800);
   font-family: var(--font-inter);
   font-size: var(--text-tiny);
   font-weight: 600;
@@ -607,6 +607,7 @@
   border-radius: 10px;
   background: var(--color-page-surface);
   border: 1px solid rgb(142 200 213 / 18%);
+  color: var(--color-page-text);
 }
 
 .process-step__number {
@@ -625,7 +626,7 @@
 
 .process-step h3 {
   margin: 0 0 4px;
-  color: var(--color-primary-500);
+  color: var(--color-page-text);
   font-family: var(--font-plus-jakarta);
   font-size: var(--text-h6);
   font-weight: 500;
@@ -635,7 +636,7 @@
 .process-step p {
   max-width: 320px;
   margin: 0;
-  color: var(--color-page-muted);
+  color: var(--color-page-text);
   font-family: var(--font-inter);
   font-size: var(--text-small);
   line-height: 1.45;
@@ -779,12 +780,6 @@
   color: var(--color-neutral-50);
 }
 
-.about-section {
-  padding: 72px 32px 80px;
-  background: var(--color-neutral-50);
-  color: var(--color-neutral-900);
-}
-
 .about-section__intro,
 .about-section__impact-layout {
   max-width: 1200px;
@@ -817,7 +812,7 @@
 .about-section__copy--description p {
   max-width: 560px;
   margin: 0;
-  color: var(--color-neutral-900);
+  color: var(--color-page-muted);
   font-family: var(--font-inter);
   font-size: var(--text-body);
   line-height: 1.35;
@@ -834,7 +829,7 @@
   padding: 4px 9px;
   border-radius: 3px;
   background: var(--color-primary-50);
-  color: var(--color-primary-500);
+  color: var(--color-primary-800);
   font-family: var(--font-inter);
   font-size: 10px;
   line-height: 1;
@@ -912,10 +907,43 @@
   gap: 12px;
 }
 
+.about-impact-card {
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
+  min-height: 112px;
+  padding: 18px 16px;
+  border-radius: 12px;
+  background: var(--color-primary-800);
+  color: var(--color-page-text);
+}
+
+.about-impact-card > img {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 auto;
+}
+
+.about-impact-card h3 {
+  margin: 0 0 4px;
+  color: var(--color-neutral-50);
+  font-family: var(--font-plus-jakarta);
+  font-size: var(--text-body);
+  font-weight: 500;
+}
+
+.about-impact-card p {
+  margin: 0;
+  color: var(--color-neutral-50);
+  font-family: var(--font-inter);
+  font-size: var(--text-small);
+  line-height: 1.4;
+}
+
 .advantages-section {
   padding: 72px 32px 80px;
-  /* background: var(--color-primary-50); */
-  color: var(--color-neutral-900);
+  background: var(--color-page-surface);
+  color: var(--color-page-text);
 }
 
 .advantages-section > .section-label {
@@ -948,7 +976,7 @@
   border: 0;
   border-radius: 9px;
   background: transparent;
-  color: var(--color-neutral-900);
+  color: var(--color-page-text);
   font-family: var(--font-inter);
   text-align: left;
   cursor: pointer;
@@ -958,7 +986,7 @@
 }
 
 .advantage-card--active {
-  background: var(--color-primary-500);
+  background: var(--color-primary-800);
   color: var(--color-neutral-50);
 }
 
@@ -972,7 +1000,7 @@
 
 .advantage-card__description {
   max-width: 420px;
-  color: var(--color-neutral-700);
+  color: var(--color-page-muted);
   font-size: var(--text-small);
   line-height: 1.45;
 }
@@ -997,7 +1025,7 @@
   min-height: 470px;
   overflow: hidden;
   border-radius: 18px;
-  background: #f5f5f5;
+  background: var(--color-page-bg);
   place-items: center;
 }
 
@@ -1130,7 +1158,7 @@
 
 .footer a:hover,
 .footer a:focus-visible {
-  color: var(--color-primary-500);
+  color: var(--color-primary-800);
 }
 
 .footer__contact > a {

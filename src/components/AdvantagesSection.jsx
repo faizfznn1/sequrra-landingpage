@@ -8,7 +8,7 @@ const advantages = [
     title: "Pilih Varian Keamanan Sesuai Kemasan Anda",
     description:
       "Setiap produk memiliki kebutuhan material dan tingkat proteksi yang berbeda.",
-    action: "Get started",
+    action: "Mulai Sekarang",
     image: varianImage,
     imageAlt: "Varian keamanan produk Sequrra",
   },
@@ -24,7 +24,7 @@ const advantages = [
     title: "Solusi Proteksi untuk Berbagai Sektor",
     description:
       "Disesuaikan dengan standar regulasi dan rantai pasok industri Anda.",
-    action: "Get started",
+    action: "Mulai Sekarang",
     image: mobileAppsImage,
     imageAlt: "Aplikasi verifikasi produk Sequrra",
   },
