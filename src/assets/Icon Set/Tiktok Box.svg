@@ -1,0 +1,31 @@
+<svg width="53" height="55" viewBox="0 0 53 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-13" y="-13" width="79" height="81"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(6.5px);clip-path:url(#bgblur_0_32_1209_clip_path);height:100%;width:100%"></div></foreignObject><g opacity="0.78" filter="url(#filter0_ii_32_1209)" data-figma-bg-blur-radius="13">
+<rect width="53" height="55" rx="15" fill="#091019"/>
+<rect x="0.5" y="0.5" width="52" height="54" rx="14.5" stroke="url(#paint0_linear_32_1209)"/>
+<path d="M35.483 25.4967C35.3121 25.514 35.1389 25.522 34.9668 25.5231C33.076 25.5231 31.3125 24.5697 30.2765 22.9887V31.62C30.2765 35.1435 27.4196 38.0003 23.8962 38.0003C20.3727 38.0003 17.5159 35.1446 17.5159 31.62C17.5159 28.0966 20.3727 25.2397 23.8962 25.2397C24.0293 25.2397 24.16 25.2512 24.2908 25.2604V28.4041C24.16 28.388 24.0316 28.3639 23.8962 28.3639C22.0983 28.3639 20.6401 29.8222 20.6401 31.62C20.6401 33.4179 22.0983 34.8762 23.8962 34.8762C25.6952 34.8762 27.2831 33.4592 27.2831 31.6602L27.3141 16.9996H30.3212C30.6046 19.697 32.7799 21.8035 35.4842 22.0008V25.4945" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_ii_32_1209" x="-13" y="-13" width="79" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_32_1209"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_32_1209" result="effect2_innerShadow_32_1209"/>
+</filter>
+<clipPath id="bgblur_0_32_1209_clip_path" transform="translate(13 13)"><rect width="53" height="55" rx="15"/>
+</clipPath><linearGradient id="paint0_linear_32_1209" x1="0" y1="55" x2="56.7394" y2="50.8255" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.05"/>
+<stop offset="0.5" stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0.05"/>
+</linearGradient>
+</defs>
+</svg>

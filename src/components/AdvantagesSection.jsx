@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
-import dashboardImage from "../assets/Dashboard.png";
-import mobileAppsImage from "../assets/Mobile Apps.png";
-import stickerImage from "../assets/Sticker.png";
+import varianImage from "../assets/Varian.png";
+import mobileAppsImage from "../assets/Card Mobile.png";
 
 const advantages = [
   {
@@ -10,17 +9,17 @@ const advantages = [
     description:
       "Setiap produk memiliki kebutuhan material dan tingkat proteksi yang berbeda.",
     action: "Get started",
-    image: dashboardImage,
-    imageAlt: "Dashboard keamanan produk Sequrra",
+    image: varianImage,
+    imageAlt: "Varian keamanan produk Sequrra",
   },
-  {
-    title: "Kenapa Produk Anda Wajib Dilindungi?",
-    description:
-      "Pemalsuan bukan sekadar kehilangan penjualan, tetapi ancaman kelangsungan bisnis Anda.",
-    action: "Coming Soon",
-    image: stickerImage,
-    imageAlt: "Stiker keamanan produk Sequrra",
-  },
+  // {
+  //   title: "Kenapa Produk Anda Wajib Dilindungi?",
+  //   description:
+  //     "Pemalsuan bukan sekadar kehilangan penjualan, tetapi ancaman kelangsungan bisnis Anda.",
+  //   action: "Coming Soon",
+  //   image: stickerImage,
+  //   imageAlt: "Stiker keamanan produk Sequrra",
+  // },
   {
     title: "Solusi Proteksi untuk Berbagai Sektor",
     description:
